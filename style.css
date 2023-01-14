@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap");
+:root {
+  background: #e3e3e3;
+  color: blueviolet;
+  font-family: "Ubuntu";
+  zoom: 88%;
+}
+
+.pagecontainer {
+  background: #e3e3e3;
+  max-width: 88vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+header {
+  border-radius: 3px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.titlelogo img {
+  zoom: 25%;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navlist input {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.navlist button {
+  padding: 10px;
+  border-radius: 5px;
+}
+.navlist button:hover {
+  background-color: #fff888;
+  cursor: pointer;
+}
+
+.navitems {
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+}
+.navitems:hover {
+  cursor: pointer;
+}
+
+main {
+  background: #e3e3e3;
+  padding: 5px;
+  height: 88vh;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sec1left {
+  width: 50%;
+  padding: 5px;
+}
+.sec1left img {
+  zoom: 10%;
+}
+
+.sec1right {
+  width: 50%;
+  padding: 5px;
+}
+.sec1right h1 {
+  text-align: center;
+}
+.sec1right p {
+  text-align: center;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 22vh;
+}
+
+footer {
+  background-color: orchid;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */
