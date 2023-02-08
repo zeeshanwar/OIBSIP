@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>
+          Temperature Converter
+     </title>
+
+
+     <script src="script.js" defer></script>
+
+     <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+     <div class="bodycontainer">
+
+
+          <div class="heading">
+               <h1>Temperature Converter</h1>
+          </div>
+
+
+          <div class="pagebody">
+
+
+               <div class="container">
+
+
+                    <form id="converterform" onsubmit="return false">
+
+
+                         <div class="tempinputarea">
+
+                              <div class="tempdegree">
+                                   <div class="temptitle" id="toptitle">
+                                        Temperature
+                                   </div>
+                                   <input class="tempinputbox" id="tempinput" autocomplete="off" title="Enter the Temperature without any Unit" required>
+                              </div>
+
+                              <div class="tempunit">
+
+                                   <div class="tempunitbox" id="tempfrom">
+                                        <div class="temptitle">
+                                             From
+                                        </div>
+                                        <div class="unitbox">
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="inputcelcius"
+                                                       class="tempradio radioinput" value="°C"> Celcius &nbsp;
+                                             </div>
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="inputfarenheit"
+                                                       class="tempradio radioinput" value="°F"> Farenheit &nbsp;
+                                             </div>
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-input" id="inputkelvin"
+                                                       class="tempradio radioinput" value="K"> Kelvin &nbsp;
+                                             </div>
+                                        </div>
+                                   </div>
+
+                                   <div class="tempunitbox" id="tempto">
+                                        <div class="temptitle">
+                                             To
+                                        </div>
+                                        <div class="unitbox">
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-output" id="outputcelcius"
+                                                       class="tempradio radiooutput" value="Celcius"> Celcius &nbsp;
+                                             </div>
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-output" id="outputfarenheit"
+                                                       class="tempradio radiooutput" value="Farenheit"> Farenheit &nbsp;
+                                             </div>
+                                             <div class="unitoptions">
+                                                  <input type="radio" name="tempreature-unit-output" id="outputkelvin"
+                                                       class="tempradio radiooutput" value="Kelvin"> Kelvin &nbsp;
+                                             </div>
+                                        </div>
+                                   </div>
+
+                              </div>
+
+                         </div>
+
+
+                         <div class="calltoaction">
+                              <button class="submitbtn" id="submit"> Convert </button>
+                         </div>
+
+
+                         <div class="resultcontainer">
+
+                              <input class="tempinputbox" id="result" placeholder="Result" readonly>
+                              <input class="tempinputbox" id="resultunit" placeholder="Unit" readonly>
+                                 
+                         </div>
+                         
+                         <input class="tempinputbox" id="fullresult" readonly>
+
+
+                         <div class="resetarea">
+
+                              <button type="reset" class="resetbtn" id="reset"> Reset </button>
+
+                         </div>
+
+
+                    </form>
+
+
+               </div>
+
+
+          </div>
+
+     </div>
+
+</body>
+
+</html>
